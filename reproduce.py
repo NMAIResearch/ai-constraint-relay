@@ -1,23 +1,19 @@
 #!/usr/bin/env python3
 """
-reproduce.py -- Barbell Risk Assessment v3 (DATA-FIRST).
+reproduce.py -- The AI Constraint Relay reproduction script (v5 DATA-FIRST).
+
+Assistance disclosure: AI-assisted drafting (Anthropic Opus 5.0 / Google DeepMind Gemini 3.7).
 
 Philosophy: let the raw numbers speak. This tabulates the verifiable, sourced
 metrics behind each risk factor (supply_constraints.csv). It does NOT score,
 weight, or rank them -- the v1 "Likelihood x Severity" product was retired
 because assigning 1-5 ratings dresses judgment as measurement (false precision).
 
-v3 renumbers the factors from F1-F5 to 1-6, folds the old F5 (critical minerals)
-into 4 alongside the physical chokepoints, and promotes two forces from cost
-amplifiers to factors: 5 commoditisation from below, and 6 export controls.
-The CSV also carries the factor-5 inverse-risk row (the over-capacity tail) with
-its upgrade trigger attached, and the v3 corrections (Lake Powell deferred;
-per-query energy revised down; the minerals review stated as a month, not a day).
+v5 incorporates the verified Lake Powell / Reclamation trace correction (July
+2026 Min Probable 3,503.65 ft year-end projection vs 3,490 ft power pool, noting
+the vintage mismatch across traces).
 
-The "barbell" reading is INTERPRETATION drawn from these numbers, and is labelled
-as such -- judgment, not measured risk.
-
-Edit the CSV and re-run to reproduce every figure.  Std-lib only.
+Edit the CSV and re-run to reproduce every figure. Std-lib only.
 $ python3 reproduce.py
 """
 import csv, os
@@ -34,7 +30,7 @@ def load(name):
 def constraints():
     rows = load("supply_constraints.csv")
     print("=" * 78)
-    print("THE SIX FACTORS -- verifiable, sourced metrics (the raw spine)")
+    print("THE CONSTRAINT RELAY (v5) -- verifiable, sourced metrics (the raw spine)")
     print("=" * 78)
     for factor, items in groupby(rows, key=lambda r: r["factor"]):
         print(f"\n  {factor}")
@@ -47,19 +43,17 @@ def constraints():
 def main():
     constraints()
     print("-" * 78)
-    print("READ: the constraints above are sourced DATA. The 'barbell' (a volatile")
-    print("base case in factors 1-2 + a low-probability / uncapped-severity tail in")
-    print("factor 3 Taiwan and the licensed-materials leg of factor 4) is")
+    print("READ: the constraints above are sourced DATA. The 'constraint relay' (where")
+    print("bottlenecks hydraulically displace from logic to grid, to price collars,")
+    print("to volume deficits, to on-site generation, to turbine castings, to inelastic")
+    print("5-year journeyman labour pipelines, and to consumer memory incidence) is")
     print("INTERPRETATION of that data -- labelled as judgment, not measured risk.")
     print("No L/S scores are asserted.")
     print()
-    print("SHAPE: 'fragile to catastrophe, robust to defection' was tested against")
-    print("the 2026 over-capacity evidence and RETAINED. The glut is carried as a")
-    print("named inverse-risk row under factor 5, with an upgrade trigger; none of")
-    print("its conditions was present at 21 Jul 2026. If they fire, the shape does")
-    print("not invert, it COLLAPSES to a single mode of stranded assets, and the")
-    print("register needs rebuilding not amending. The barbell is a bimodal")
-    print("scenario model for capital allocation, not a probability distribution.")
+    print("CONCLUSION: The register documents a system under continuous hydraulic")
+    print("displacement. The non-relocatable tail risks (Taiwan Strait, licensed rare")
+    print("earths, Spruce Pine high-purity quartz) represent physical boundaries where")
+    print("re-routing is impossible. The register serves as a living referee layer.")
 
 
 if __name__ == "__main__":
