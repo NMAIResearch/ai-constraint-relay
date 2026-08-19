@@ -1,0 +1,11 @@
+{
+  "style-enforcer": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python3 .agents/scripts/lint_stop_gate.py",
+        "timeout": 15
+      }
+    ]
+  }
+}

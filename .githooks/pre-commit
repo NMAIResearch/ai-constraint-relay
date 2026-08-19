@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+TELLSCRUB=""
+
+if [ -f "$REPO_ROOT/../House style/tellscrub.py" ]; then
+    TELLSCRUB="$REPO_ROOT/../House style/tellscrub.py"
+elif [ -f "$REPO_ROOT/House style/tellscrub.py" ]; then
+    TELLSCRUB="$REPO_ROOT/House style/tellscrub.py"
+elif [ -f "/var/home/Noel/Desktop/House style/tellscrub.py" ]; then
+    TELLSCRUB="/var/home/Noel/Desktop/House style/tellscrub.py"
+fi
+
+if [ -z "$TELLSCRUB" ]; then
+    echo "Warning: House style/tellscrub.py not found. Skipping pre-commit style scrub."
+    exit 0
+fi
+
+STAGED_MD=$(git diff --cached --name-only --diff-filter=ACM | grep '\.md$' || true)
+
+if [ -n "$STAGED_MD" ]; then
+    for file in $STAGED_MD; do
+        if [ -f "$file" ]; then
+            python3 "$TELLSCRUB" "$file"
+        fi
+    done
+fi
