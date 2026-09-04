@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-reproduce.py -- The AI Constraint Relay reproduction script (v5 DATA-FIRST).
+reproduce.py -- The AI Constraint Relay reproduction script (v6 DATA-FIRST).
 
 Assistance disclosure: AI-assisted drafting (Anthropic Opus 5.0 / Google DeepMind Gemini 3.7).
 
@@ -9,7 +9,10 @@ metrics behind each risk factor (supply_constraints.csv). It does NOT score,
 weight, or rank them -- the v1 "Likelihood x Severity" product was retired
 because assigning 1-5 ratings dresses judgment as measurement (false precision).
 
-v5 incorporates the verified Lake Powell / Reclamation trace correction (July
+v6 withdraws the Spruce Pine world-share claim, moves helium into the
+non-relocatable tail, excludes the Microsoft $175B from the factor 1 guidance
+reading, and marks the HBM margin motive inverted. It retains the verified
+Lake Powell / Reclamation trace correction (July
 2026 Min Probable 3,503.65 ft year-end projection vs 3,490 ft power pool, noting
 the vintage mismatch across traces).
 
@@ -30,7 +33,7 @@ def load(name):
 def constraints():
     rows = load("supply_constraints.csv")
     print("=" * 78)
-    print("THE CONSTRAINT RELAY (v5) -- verifiable, sourced metrics (the raw spine)")
+    print("THE CONSTRAINT RELAY (v6) -- verifiable, sourced metrics (the raw spine)")
     print("=" * 78)
     for factor, items in groupby(rows, key=lambda r: r["factor"]):
         print(f"\n  {factor}")
@@ -52,7 +55,7 @@ def main():
     print()
     print("CONCLUSION: The register documents a system under continuous hydraulic")
     print("displacement. The non-relocatable tail risks (Taiwan Strait, licensed rare")
-    print("earths, Spruce Pine high-purity quartz) represent physical boundaries where")
+    print("earths, semiconductor-grade helium) represent physical boundaries where")
     print("re-routing is impossible. The register serves as a living referee layer.")
 
 

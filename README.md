@@ -1,4 +1,4 @@
-# The AI Constraint Relay, reproduction bundle (v5)
+# The AI Constraint Relay, reproduction bundle (v6)
 
 *AI disclosure: the research is the author's; this text was drafted with AI assistance and reviewed by the author. The models, and the conflicts they create, are named in the Conflict of interest and scope section.*
 
@@ -9,6 +9,8 @@ building and running the compute, and tracks how those limits displace across th
 
 > **Version history.** Concept DOI 10.5281/zenodo.20586863 (resolves to the current version).
 >
+> **v6 updates (19 August 2026).** Source-verification pass. Spruce Pine HPQ world share withdrawn (USGS publishes none, and the wrong chapter had been cited); helium reclassified from an inventory-buffered problem to the non-relocatable tail on a three to five year repair timeline; the Microsoft $175B excluded from the factor 1 guidance reading as an accounting boundary change rather than a cut; the HBM margin motive marked inverted after HBM per-wafer revenue fell below DDR5 64GB RDIMM in Q1 2026.
+> 
 > **v5 updates (16 August 2026).**
 > - *Lake Powell & USBR Trace Correction:* Corrected study attribution and scenario elevations. Documented the vintage mismatch across Reclamation 24-Month traces (Min Probable July 2026, Max May 2026; canonical August file remains August 2025). The 3,490 ft minimum power pool breach remains deferred past 2026, with the July 2026 Probable Minimum trace projecting 3,503.65 ft at year-end (≈13.7 ft clearance, with 36 per cent unregulated inflows and 6.00 maf releases). Dropped the unanchored 3,504 ft threshold.
 >
@@ -39,13 +41,13 @@ same quantity, both are shown rather than averaged.
 
 | File | What it is |
 |---|---|
-| `constraint_relay_v5.md` | The paper (Markdown source, the thing you edit). |
-| `The AI Constraint Relay v5.pdf` | The paper (readable PDF). |
+| `constraint_relay_v6.md` | The paper (Markdown source, the thing you edit). |
+| `The AI Constraint Relay v6.pdf` | The paper (readable PDF). |
 | `reproduce.py` | Tabulates and cites every figure from the CSV. Standard library only. |
 | `supply_constraints.csv` | Every metric with its value, source, and vintage (the data layer). |
 | `README.md` | This file. |
 
-*Rendering:* `bash "House style/render_pdf.sh" constraint_relay_v5.md "The AI Constraint Relay v5.pdf"`
+*Rendering:* `bash "House style/render_pdf.sh" constraint_relay_v6.md "The AI Constraint Relay v6.pdf"`
 (markdown → house-style HTML → headless print to PDF, in one command).
 
 ## Reproduce
