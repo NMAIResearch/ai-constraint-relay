@@ -2,13 +2,13 @@
 
 Purpose: describe the paper and its accompanying source catalogue.
 
-**Version:** v7. [Concept DOI](https://doi.org/10.5281/zenodo.20586863).
+**Version:** v7.
 
 This work was produced through an AI-assisted workflow directed by the author.
 
 The paper examines selected disclosed commitments, delivery stages and access obligations across the US, EU and UK. It uses dated records assembled through 14 September 2026, with later Irish-process clarifications. It does not establish an industry-wide causal relay, a regional performance ranking or unusual risk relative to matched conventional project finance. No matched baseline was run.
 
-Read [the main paper](v7/PAPER_v7.pdf), or its [Markdown text](v7/PAPER_v7.md). The [source catalogue](v7/SOURCE_CATALOGUE.json) records original URLs, reporting periods, inspected locations and source limits. Most commercial sources are interested company disclosures. Political coverage is expressly attributed, including original statements not retrieved.
+Read [the main paper](PAPER_v7.pdf), or its [Markdown text](PAPER_v7.md). The [source catalogue](SOURCE_CATALOGUE.json) records original URLs, reporting periods, inspected locations and source limits. Most commercial sources are interested company disclosures. Political coverage is expressly attributed, including original statements not retrieved.
 
 ## Reproduction and limits
 
@@ -27,7 +27,3 @@ The research design, method, sourcing decisions and analytical judgements are th
 Guarantee: the Verification note and source catalogue identify the documents, inspected locations and evidence limits used for this assessment. They do not certify every underlying company statement or a complete causal account. A reader can check this without trusting either party. No matched project-finance baseline, complete historical replay, bank reconciliation, site inspection or customer acceptance audit is claimed.
 
 What the author cannot guarantee: errors or omissions can survive model review, including confident but incorrect review findings. The author does not claim the review is exhaustive. Corrections are logged against the DOI when surfaced. No warranty is offered beyond the terms of the CC BY 4.0 licence.
-
-## Historical files
-
-The root `supply_constraints.csv` and `reproduce.py` belong to historical v6. They do not regenerate v7. The [historical README](README_v6.md) is retained as the previous edition's documentation; its reproduction assertions do not describe the current paper.
