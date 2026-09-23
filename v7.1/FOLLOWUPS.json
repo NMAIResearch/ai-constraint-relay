@@ -1,0 +1,77 @@
+{
+  "purpose": "Author-selected case follow-ups; editorial judgements, not calibrated indicators or automatically evaluated events.",
+  "schema_version": "ai-infrastructure-reproduction/1",
+  "paper_version": "v7.1",
+  "columns": [
+    "Relationship",
+    "Finding now",
+    "Evidence that would materially change the assessment"
+  ],
+  "rows": [
+    [
+      "NVIDIA / SB Energy",
+      "Conditional support and supplier restriction",
+      "Lease commencement, amended exclusivity, credit-rating termination or a disclosed trigger and recovery"
+    ],
+    [
+      "CoreWeave",
+      "Renewal permitted; later cash performance unverified",
+      "Renewals or re-leasing terms, repayment schedule and operating receipts"
+    ],
+    [
+      "Modine / Micron",
+      "Customer funding or commitments linked to later supply",
+      "Customer-window delivery and acceptance; confirmed deposits, returns and performance obligations"
+    ],
+    [
+      "Ireland",
+      "Generation compliance can affect import rights",
+      "Actual connection agreements, compliant replacement or enforced capacity reduction"
+    ],
+    [
+      "PJM / EuroHPC",
+      "Proposed procurement and service routes",
+      "Final orders, awards, executed funding and operating delivery"
+    ]
+  ],
+  "row_provenance": [
+    {
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "basis": "NVIDIA filing and SB Energy account link conditional support to infrastructure exclusivity and phased commencement. These sources describe the arrangement; the listed future observations are editorial choices, not events already observed."
+    },
+    {
+      "source_ids": [
+        "S05"
+      ],
+      "basis": "CoreWeave borrower disclosure states facility and average contract terms and permits renewal or re-leasing. The source does not supply the future renewal outcome, repayment performance or operating receipts needed for the proposed follow-up."
+    },
+    {
+      "source_ids": [
+        "S09",
+        "S10",
+        "S21",
+        "S22"
+      ],
+      "basis": "Modine filings and results distinguish received customer deposits and future purchases from current-quarter supplier sales. Micron filing and remarks distinguish expected deposits and commitments from confirmed receipts. The follow-ups preserve these different timing and cash-status boundaries."
+    },
+    {
+      "source_ids": [
+        "EU04",
+        "EU05"
+      ],
+      "basis": "CRU policy and the EirGrid process describe size-dependent conditions and continuing generation obligations. They do not establish an executed agreement or enforcement outcome for an individual applicant. Follow-ups concern those later observations."
+    },
+    {
+      "source_ids": [
+        "S24",
+        "S26",
+        "EU07",
+        "EU08"
+      ],
+      "basis": "PJM backstop filing and answer and the EuroHPC call and tender describe proposed procurement or service routes. Requested decisions and tender deadlines are not final orders, awards, paid funding or operating delivery."
+    }
+  ]
+}

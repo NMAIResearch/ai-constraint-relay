@@ -1,0 +1,112 @@
+{
+  "purpose": "Calculated GE Vernova balances and declared reproduction coverage; no causal validation.",
+  "schema_version": "ai-infrastructure-reproduction/1",
+  "paper_version": "v7.1",
+  "quantity_records": 36,
+  "paper_quantity_records": 32,
+  "source_only_records": 4,
+  "follow_up_rows": 5,
+  "calculations": [
+    {
+      "id": "ge_reservation_residual",
+      "unit": "GW",
+      "value": "1",
+      "inputs": [
+        "C_GE_OPEN_RES",
+        "C_GE_NEW_RES",
+        "C_GE_CONV_RES",
+        "C_GE_CLOSE_RES"
+      ],
+      "formula": "opening + new - converted - closing",
+      "source_ids": [
+        "S16"
+      ],
+      "interpretation": "Unreconciled reservation residual; cause unverified, not labelled cancellation.",
+      "operands": [
+        {
+          "id": "C_GE_OPEN_RES",
+          "value": "56",
+          "unit": "GW",
+          "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+          "description": "Opening gas equipment slot reservation agreements"
+        },
+        {
+          "id": "C_GE_NEW_RES",
+          "value": "18",
+          "unit": "GW",
+          "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+          "description": "New gas equipment slot reservation agreements"
+        },
+        {
+          "id": "C_GE_CONV_RES",
+          "value": "10",
+          "unit": "GW",
+          "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+          "description": "Reservations converted to orders"
+        },
+        {
+          "id": "C_GE_CLOSE_RES",
+          "value": "63",
+          "unit": "GW",
+          "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+          "description": "Closing gas equipment slot reservation agreements"
+        }
+      ]
+    },
+    {
+      "id": "ge_firm_backlog",
+      "unit": "GW",
+      "value": "53",
+      "inputs": [
+        "C095",
+        "C092",
+        "C093",
+        "C094"
+      ],
+      "reported_closing_id": "C096",
+      "formula": "opening + direct_orders + converted - shipments",
+      "source_ids": [
+        "S16"
+      ],
+      "interpretation": "Reported firm equipment backlog reconciles at the stated precision.",
+      "operands": [
+        {
+          "id": "C095",
+          "value": "44",
+          "unit": "GW",
+          "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+          "description": "Firm backlog rose from 44GW"
+        },
+        {
+          "id": "C092",
+          "value": "2",
+          "unit": "GW",
+          "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+          "description": "2GW of direct orders"
+        },
+        {
+          "id": "C093",
+          "value": "10",
+          "unit": "GW",
+          "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+          "description": "10GW converted from reservations to orders"
+        },
+        {
+          "id": "C094",
+          "value": "3",
+          "unit": "GW",
+          "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+          "description": "3GW shipped"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    "source retrieval",
+    "complete prose fact checking",
+    "PDF typography",
+    "causal inference",
+    "automated assessment of follow-up events",
+    "historical model experiments"
+  ]
+}

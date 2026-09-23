@@ -1,0 +1,551 @@
+{
+  "purpose": "Frozen manually extracted quantitative records for the named outputs. Qualifiers and context are part of each observation. Dates and other non-quantity prose are not exhaustively structured.",
+  "schema_version": "ai-infrastructure-reproduction/1",
+  "paper_version": "v7.1",
+  "quantities": [
+    {
+      "id": "C021",
+      "value": "105",
+      "unit": "billion USD",
+      "period": "S01: Quarter ended 2026-07-26; separately identified August subsequent events",
+      "qualifier": "conditional cap; neither paid cash nor expected loss",
+      "excerpt": "conditional USD105B guarantee cap",
+      "context": "<!-- D04 -->\nNVIDIA's disclosed SB Energy arrangement pairs a conditional USD105B guarantee cap with NVIDIA infrastructure exclusivity, subject to exceptions, for an initial 4.25GW of IT load. Guarantees begin with lease commencement in nine phases, first expected in NVIDIA fiscal 2029. Defined tenant defaults can trigger payment; exposure declines and a satisfactory-credit-rating termination condition applies. The cap is neither cash paid nor expected loss.",
+      "source_ids": [
+        "S01"
+      ],
+      "locators": {
+        "S01": "Note 10, lines 872-882"
+      }
+    },
+    {
+      "id": "C023",
+      "value": "4.25",
+      "unit": "GW",
+      "period": "S02: Announcement and proposed phased development",
+      "qualifier": "initial IT load",
+      "excerpt": "initial 4.25GW of IT load",
+      "context": "<!-- D04 -->\nNVIDIA's disclosed SB Energy arrangement pairs a conditional USD105B guarantee cap with NVIDIA infrastructure exclusivity, subject to exceptions, for an initial 4.25GW of IT load. Guarantees begin with lease commencement in nine phases, first expected in NVIDIA fiscal 2029. Defined tenant defaults can trigger payment; exposure declines and a satisfactory-credit-rating termination condition applies. The cap is neither cash paid nor expected loss.",
+      "source_ids": [
+        "S02"
+      ],
+      "locators": {
+        "S02": "lines 21-27"
+      }
+    },
+    {
+      "id": "C024",
+      "value": "9",
+      "unit": "phases",
+      "period": "S01: Quarter ended 2026-07-26; separately identified August subsequent events",
+      "qualifier": "phased commencements, not currently operating phases",
+      "excerpt": "Guarantees begin with lease commencement in nine phases",
+      "context": "<!-- D04 -->\nNVIDIA's disclosed SB Energy arrangement pairs a conditional USD105B guarantee cap with NVIDIA infrastructure exclusivity, subject to exceptions, for an initial 4.25GW of IT load. Guarantees begin with lease commencement in nine phases, first expected in NVIDIA fiscal 2029. Defined tenant defaults can trigger payment; exposure declines and a satisfactory-credit-rating termination condition applies. The cap is neither cash paid nor expected loss.",
+      "source_ids": [
+        "S01"
+      ],
+      "locators": {
+        "S01": "Note 10, lines 872-882"
+      }
+    },
+    {
+      "id": "C038",
+      "value": "2.6",
+      "unit": "billion USD",
+      "period": "S05: Closed DDTL 5.5 and stated contract/debt terms",
+      "qualifier": "announced facility, not cash drawn",
+      "excerpt": "USD2.6B facility",
+      "context": "<!-- D06 -->\nCoreWeave's August announcement describes a USD2.6B facility with an approximately five-year term, against customer contracts averaging three years. The same release expressly allows renewal or re-leasing, subject to credit-agreement criteria, and reports Moody's Ba2 and Fitch BB+ ratings. Nscale separately reports investment-grade ratings for its delayed-draw US facilities, without naming the agencies in the inspected release. These are borrower disclosures; independent rating reports were not inspected. [CoreWeave facility](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-2-6-Billion-Loan-Facility-Expanding-Financing-Flexibility-for-AI-Infrastructure/default.aspx); [Nscale facilities](https://www.nscale.com/press-releases/nscale-3-billion-delayed-draw-term-loans).",
+      "source_ids": [
+        "S05"
+      ],
+      "locators": {
+        "S05": "lines 7-13"
+      }
+    },
+    {
+      "id": "C039",
+      "value": "5",
+      "unit": "years",
+      "period": "S05: Closed DDTL 5.5 and stated contract/debt terms",
+      "qualifier": "approximately",
+      "excerpt": "approximately five-year term",
+      "context": "<!-- D06 -->\nCoreWeave's August announcement describes a USD2.6B facility with an approximately five-year term, against customer contracts averaging three years. The same release expressly allows renewal or re-leasing, subject to credit-agreement criteria, and reports Moody's Ba2 and Fitch BB+ ratings. Nscale separately reports investment-grade ratings for its delayed-draw US facilities, without naming the agencies in the inspected release. These are borrower disclosures; independent rating reports were not inspected. [CoreWeave facility](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-2-6-Billion-Loan-Facility-Expanding-Financing-Flexibility-for-AI-Infrastructure/default.aspx); [Nscale facilities](https://www.nscale.com/press-releases/nscale-3-billion-delayed-draw-term-loans).",
+      "source_ids": [
+        "S05"
+      ],
+      "locators": {
+        "S05": "lines 7-13"
+      }
+    },
+    {
+      "id": "C040",
+      "value": "3",
+      "unit": "years",
+      "period": "S05: Closed DDTL 5.5 and stated contract/debt terms",
+      "qualifier": "average customer contract term",
+      "excerpt": "customer contracts averaging three years",
+      "context": "<!-- D06 -->\nCoreWeave's August announcement describes a USD2.6B facility with an approximately five-year term, against customer contracts averaging three years. The same release expressly allows renewal or re-leasing, subject to credit-agreement criteria, and reports Moody's Ba2 and Fitch BB+ ratings. Nscale separately reports investment-grade ratings for its delayed-draw US facilities, without naming the agencies in the inspected release. These are borrower disclosures; independent rating reports were not inspected. [CoreWeave facility](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-2-6-Billion-Loan-Facility-Expanding-Financing-Flexibility-for-AI-Infrastructure/default.aspx); [Nscale facilities](https://www.nscale.com/press-releases/nscale-3-billion-delayed-draw-term-loans).",
+      "source_ids": [
+        "S05"
+      ],
+      "locators": {
+        "S05": "lines 7-13"
+      }
+    },
+    {
+      "id": "C049",
+      "value": "4",
+      "unit": "years",
+      "period": "S07: 2026-06-30 reporting date and July subsequent events",
+      "qualifier": "initial term",
+      "excerpt": "Hyperion property leases have four-year initial terms",
+      "context": "<!-- D08 -->\nMeta's June interim filing illustrates a different allocation. Hyperion property leases have four-year initial terms, with options extending the total term up to 20 years. A declining residual-value guarantee threshold of about USD28B is conditional on termination or non-renewal, asset values and other terms. Meta reports that payment is not probable and records no liability for that guarantee. Those are unaudited interim disclosures.",
+      "source_ids": [
+        "S07"
+      ],
+      "locators": {
+        "S07": "Note 5, lines 635-650"
+      }
+    },
+    {
+      "id": "C050",
+      "value": "20",
+      "unit": "years",
+      "period": "S07: 2026-06-30 reporting date and July subsequent events",
+      "qualifier": "maximum total with options",
+      "excerpt": "options extending the total term up to 20 years",
+      "context": "<!-- D08 -->\nMeta's June interim filing illustrates a different allocation. Hyperion property leases have four-year initial terms, with options extending the total term up to 20 years. A declining residual-value guarantee threshold of about USD28B is conditional on termination or non-renewal, asset values and other terms. Meta reports that payment is not probable and records no liability for that guarantee. Those are unaudited interim disclosures.",
+      "source_ids": [
+        "S07"
+      ],
+      "locators": {
+        "S07": "Note 5, lines 635-650"
+      }
+    },
+    {
+      "id": "C051",
+      "value": "28",
+      "unit": "billion USD",
+      "period": "S07: 2026-06-30 reporting date and July subsequent events",
+      "qualifier": "approximately; declining contingent threshold, not expected loss",
+      "excerpt": "declining residual-value guarantee threshold of about USD28B",
+      "context": "<!-- D08 -->\nMeta's June interim filing illustrates a different allocation. Hyperion property leases have four-year initial terms, with options extending the total term up to 20 years. A declining residual-value guarantee threshold of about USD28B is conditional on termination or non-renewal, asset values and other terms. Meta reports that payment is not probable and records no liability for that guarantee. Those are unaudited interim disclosures.",
+      "source_ids": [
+        "S07"
+      ],
+      "locators": {
+        "S07": "Note 5, lines 635-650"
+      }
+    },
+    {
+      "id": "C061",
+      "value": "165",
+      "unit": "million USD",
+      "period": "March 2026 receipt; future sales 2027 to 2029",
+      "qualifier": "received deposit",
+      "excerpt": "USD165M customer deposit in March",
+      "context": "<!-- D10 -->\nModine received a USD165M customer deposit in March for more than USD4B of expected sales during 2027 to 2029. Those expected purchases are not guaranteed. Its April to June 2026 quarter also recorded production constraints, while Data Centers sales reached USD348.6M against USD183.7M a year earlier; guidance was reaffirmed. The constrained quarter preceded the funded customer's delivery window. It therefore does not establish a missed delivery to that customer. [Modine annual filing, customer agreement](https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm); [quarterly operating results](https://investors.modine.com/news/news-details/2026/Modine-Reports-First-Quarter-Fiscal-2027-Results/default.aspx).",
+      "source_ids": [
+        "S09"
+      ],
+      "locators": {
+        "S09": "lines 1243-1257"
+      }
+    },
+    {
+      "id": "C062",
+      "value": "4",
+      "unit": "billion USD",
+      "period": "Expected sales during 2027 to 2029",
+      "qualifier": "strictly greater than; expected and not guaranteed",
+      "excerpt": "more than USD4B of expected sales during 2027 to 2029",
+      "context": "<!-- D10 -->\nModine received a USD165M customer deposit in March for more than USD4B of expected sales during 2027 to 2029. Those expected purchases are not guaranteed. Its April to June 2026 quarter also recorded production constraints, while Data Centers sales reached USD348.6M against USD183.7M a year earlier; guidance was reaffirmed. The constrained quarter preceded the funded customer's delivery window. It therefore does not establish a missed delivery to that customer. [Modine annual filing, customer agreement](https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm); [quarterly operating results](https://investors.modine.com/news/news-details/2026/Modine-Reports-First-Quarter-Fiscal-2027-Results/default.aspx).",
+      "source_ids": [
+        "S09"
+      ],
+      "locators": {
+        "S09": "lines 728-729"
+      }
+    },
+    {
+      "id": "C065",
+      "value": "348.6",
+      "unit": "million USD",
+      "period": "April to June 2026 (Modine fiscal Q1 2027)",
+      "qualifier": "reported current-quarter sales",
+      "excerpt": "Data Centers sales reached USD348.6M",
+      "context": "<!-- D10 -->\nModine received a USD165M customer deposit in March for more than USD4B of expected sales during 2027 to 2029. Those expected purchases are not guaranteed. Its April to June 2026 quarter also recorded production constraints, while Data Centers sales reached USD348.6M against USD183.7M a year earlier; guidance was reaffirmed. The constrained quarter preceded the funded customer's delivery window. It therefore does not establish a missed delivery to that customer. [Modine annual filing, customer agreement](https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm); [quarterly operating results](https://investors.modine.com/news/news-details/2026/Modine-Reports-First-Quarter-Fiscal-2027-Results/default.aspx).",
+      "source_ids": [
+        "S10"
+      ],
+      "locators": {
+        "S10": "lines 33-35"
+      }
+    },
+    {
+      "id": "C066",
+      "value": "183.7",
+      "unit": "million USD",
+      "period": "April to June 2025 (prior-year comparison)",
+      "qualifier": "reported prior-year comparison sales",
+      "excerpt": "USD183.7M a year earlier",
+      "context": "<!-- D10 -->\nModine received a USD165M customer deposit in March for more than USD4B of expected sales during 2027 to 2029. Those expected purchases are not guaranteed. Its April to June 2026 quarter also recorded production constraints, while Data Centers sales reached USD348.6M against USD183.7M a year earlier; guidance was reaffirmed. The constrained quarter preceded the funded customer's delivery window. It therefore does not establish a missed delivery to that customer. [Modine annual filing, customer agreement](https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm); [quarterly operating results](https://investors.modine.com/news/news-details/2026/Modine-Reports-First-Quarter-Fiscal-2027-Results/default.aspx).",
+      "source_ids": [
+        "S10"
+      ],
+      "locators": {
+        "S10": "lines 33-35"
+      }
+    },
+    {
+      "id": "C074",
+      "value": "22",
+      "unit": "billion USD",
+      "period": "June 2026 disclosure; future commitments generally through 2030",
+      "qualifier": "expected deposits and related commitments, not confirmed receipts",
+      "excerpt": "USD22B of expected deposits and related commitments",
+      "context": "<!-- D12 -->\nMicron's June disclosures describe take-or-pay supply agreements, generally running through 2030, and USD22B of expected deposits and related commitments, including about USD18B in cash deposits. Expected receipts are not confirmed cash received. Management describes deposits as financing cash flows, outside free cash flow, with later returns to customers. It links the agreements to supply assurance and pricing visibility, alongside memory supply pressure and HBM allocation demands. Full customer contracts and current receipt balances were not inspected. [Micron filing, supply agreements and risks](https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm); [prepared remarks, financing treatment](https://s25.q4cdn.com/621799436/files/doc_financials/2026/q3/Q3-FY26-Prepared-Remarks.pdf).",
+      "source_ids": [
+        "S21"
+      ],
+      "locators": {
+        "S21": "page 7"
+      }
+    },
+    {
+      "id": "C075",
+      "value": "18",
+      "unit": "billion USD",
+      "period": "June 2026 disclosure; expected future cash receipts",
+      "qualifier": "approximately; expected cash component, not confirmed receipts",
+      "excerpt": "about USD18B in cash deposits",
+      "context": "<!-- D12 -->\nMicron's June disclosures describe take-or-pay supply agreements, generally running through 2030, and USD22B of expected deposits and related commitments, including about USD18B in cash deposits. Expected receipts are not confirmed cash received. Management describes deposits as financing cash flows, outside free cash flow, with later returns to customers. It links the agreements to supply assurance and pricing visibility, alongside memory supply pressure and HBM allocation demands. Full customer contracts and current receipt balances were not inspected. [Micron filing, supply agreements and risks](https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm); [prepared remarks, financing treatment](https://s25.q4cdn.com/621799436/files/doc_financials/2026/q3/Q3-FY26-Prepared-Remarks.pdf).",
+      "source_ids": [
+        "S21"
+      ],
+      "locators": {
+        "S21": "page 7"
+      }
+    },
+    {
+      "id": "C089",
+      "value": "2",
+      "unit": "announcements",
+      "period": "Earlier 2024 announcement versus August 2026 announcement",
+      "qualifier": "two announcements, not a causal sample",
+      "excerpt": "That is a comparison of two announcements, N=2, not an identified cause of delay.",
+      "context": "<!-- D14 -->\nPhysical expansion has intermediate milestones. Lumentum's announced NVIDIA partnership is non-exclusive; its acquired North Carolina site is to ramp InP laser production in mid-2028. SK hynix's August Indiana announcement targets HBM mass production in the second half of 2029, compared with the second half of 2028 in the earlier official announcement. That is a comparison of two announcements, N=2, not an identified cause of delay. The stated Indiana process packages and tests wafers made in Korea. [Lumentum partnership](https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology); [plant programme](https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-New-U-S--Manufacturing-Facility-to-Produce-Advanced-Lasers-for-the-Worlds-Largest-AI-Data-Centers/default.aspx); [SK hynix milestones](https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/); [historical official target](https://www.nist.gov/news-events/news/2024/08/us-department-commerce-announces-preliminary-terms-sk-hynix-advance-us-ai-0).",
+      "source_ids": [
+        "S14",
+        "S15"
+      ],
+      "locators": {
+        "S14": "lines 52-66",
+        "S15": "lines 131-132"
+      }
+    },
+    {
+      "id": "C_GE_OPEN_RES",
+      "value": "56",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "Opening gas equipment slot reservation agreements",
+      "context": "GE Vernova Q2 2026 Gas Power reservation balances and flows. Scope includes equipment beyond AI customers.",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C_GE_NEW_RES",
+      "value": "18",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "New gas equipment slot reservation agreements",
+      "context": "GE Vernova Q2 2026 Gas Power reservation balances and flows. Scope includes equipment beyond AI customers.",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C_GE_CONV_RES",
+      "value": "10",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "Reservations converted to orders",
+      "context": "GE Vernova Q2 2026 Gas Power reservation balances and flows. Scope includes equipment beyond AI customers.",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C_GE_CLOSE_RES",
+      "value": "63",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "Closing gas equipment slot reservation agreements",
+      "context": "GE Vernova Q2 2026 Gas Power reservation balances and flows. Scope includes equipment beyond AI customers.",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C_GE_DERIVED_RESIDUAL",
+      "value": "1",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "derived unreconciled residual, not labelled cancellation",
+      "excerpt": "1GW unreconciled residual against the closing balance",
+      "context": "<!-- D15 -->\nGE Vernova's second-quarter report separates new reservations, firm orders and shipments: 18GW of new reservations, 2GW of direct orders, 10GW converted from reservations to orders, and 3GW shipped. Firm backlog rose from 44GW to 53GW. The reported reservation movements leave a 1GW unreconciled residual against the closing balance; it is not labelled cancellation here. These records cover Gas Power equipment beyond AI customers. They do not establish an individual project's wait or energisation date. [GE Vernova filed results](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C091",
+      "value": "18",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "18GW of new reservations",
+      "context": "<!-- D15 -->\nGE Vernova's second-quarter report separates new reservations, firm orders and shipments: 18GW of new reservations, 2GW of direct orders, 10GW converted from reservations to orders, and 3GW shipped. Firm backlog rose from 44GW to 53GW. The reported reservation movements leave a 1GW unreconciled residual against the closing balance; it is not labelled cancellation here. These records cover Gas Power equipment beyond AI customers. They do not establish an individual project's wait or energisation date. [GE Vernova filed results](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C092",
+      "value": "2",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "2GW of direct orders",
+      "context": "<!-- D15 -->\nGE Vernova's second-quarter report separates new reservations, firm orders and shipments: 18GW of new reservations, 2GW of direct orders, 10GW converted from reservations to orders, and 3GW shipped. Firm backlog rose from 44GW to 53GW. The reported reservation movements leave a 1GW unreconciled residual against the closing balance; it is not labelled cancellation here. These records cover Gas Power equipment beyond AI customers. They do not establish an individual project's wait or energisation date. [GE Vernova filed results](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C093",
+      "value": "10",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "10GW converted from reservations to orders",
+      "context": "<!-- D15 -->\nGE Vernova's second-quarter report separates new reservations, firm orders and shipments: 18GW of new reservations, 2GW of direct orders, 10GW converted from reservations to orders, and 3GW shipped. Firm backlog rose from 44GW to 53GW. The reported reservation movements leave a 1GW unreconciled residual against the closing balance; it is not labelled cancellation here. These records cover Gas Power equipment beyond AI customers. They do not establish an individual project's wait or energisation date. [GE Vernova filed results](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C094",
+      "value": "3",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "3GW shipped",
+      "context": "<!-- D15 -->\nGE Vernova's second-quarter report separates new reservations, firm orders and shipments: 18GW of new reservations, 2GW of direct orders, 10GW converted from reservations to orders, and 3GW shipped. Firm backlog rose from 44GW to 53GW. The reported reservation movements leave a 1GW unreconciled residual against the closing balance; it is not labelled cancellation here. These records cover Gas Power equipment beyond AI customers. They do not establish an individual project's wait or energisation date. [GE Vernova filed results](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C095",
+      "value": "44",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "Firm backlog rose from 44GW",
+      "context": "<!-- D15 -->\nGE Vernova's second-quarter report separates new reservations, firm orders and shipments: 18GW of new reservations, 2GW of direct orders, 10GW converted from reservations to orders, and 3GW shipped. Firm backlog rose from 44GW to 53GW. The reported reservation movements leave a 1GW unreconciled residual against the closing balance; it is not labelled cancellation here. These records cover Gas Power equipment beyond AI customers. They do not establish an individual project's wait or energisation date. [GE Vernova filed results](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C096",
+      "value": "53",
+      "unit": "GW",
+      "period": "S16: Quarter ended 2026-06-30; later ramp targets",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "to 53GW",
+      "context": "<!-- D15 -->\nGE Vernova's second-quarter report separates new reservations, firm orders and shipments: 18GW of new reservations, 2GW of direct orders, 10GW converted from reservations to orders, and 3GW shipped. Firm backlog rose from 44GW to 53GW. The reported reservation movements leave a 1GW unreconciled residual against the closing balance; it is not labelled cancellation here. These records cover Gas Power equipment beyond AI customers. They do not establish an individual project's wait or energisation date. [GE Vernova filed results](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm).",
+      "source_ids": [
+        "S16"
+      ],
+      "locators": {
+        "S16": "Power activity, source-labelled lines 64 to 67 (filed results page 2); reservation balances 56 to 63 GW and backlog 44 to 53 GW"
+      }
+    },
+    {
+      "id": "C100",
+      "value": "16.7",
+      "unit": "billion USD",
+      "period": "S18: Quarter ended 2026-08-02",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "Broadcom reports USD16.7B in quarterly AI semiconductor revenue",
+      "context": "<!-- D16 -->\nThe record also includes commercial output. Broadcom reports USD16.7B in quarterly AI semiconductor revenue, combining custom accelerators and networking. That combined amount does not measure displaced NVIDIA GPUs. Epoch's Abilene directory supports partial operation using company records, imagery and engineering assumptions; it is not a meter of current workload utilisation.",
+      "source_ids": [
+        "S18"
+      ],
+      "locators": {
+        "S18": "PDF page 1"
+      }
+    },
+    {
+      "id": "C106",
+      "value": "1",
+      "unit": "MVA",
+      "period": "Applications received on or after 12 December 2025; May 2026 process",
+      "qualifier": "at least; new transmission applications within stated date scope",
+      "excerpt": "new transmission-system applications of at least 1 MVA",
+      "context": "<!-- D17 -->\nIreland provides a concrete continuing obligation. EirGrid's May process implements the regulator's policy for new transmission-system applications of at least 1 MVA received on or after 12 December 2025. Under that process, nominated generation must remain operational and meet the specified relationship between de-rated export capacity and the datacentre's maximum import capacity. If that generation fails or is withdrawn, a credible plan for immediate replacement is required; otherwise import capacity may be reduced or disconnected. Continuing renewable compliance is also required. The regulator's wider policy differentiates requirements by project size. The May document records pending judicial review proceedings concerning the underlying policy and warns that their outcome could change the process. Their subsequent outcome is unverified here. These are inspected process provisions, not verified outcomes for a particular customer's agreement. [EirGrid process, PDF pages 3 to 5 and 8](https://cms.eirgrid.ie/sites/default/files/publications/Data-Centre-Connection-Offer-Process-and-Policy-V3-May-2026.pdf#page=4); [CRU decision, size-dependent requirements](https://cruie-live-96ca64acab2247eca8a850a7e54b-5b34f62.divio-media.com/documents/CRU2025236_Large_Energy_User_connection_policy_decision_paper.pdf).",
+      "source_ids": [
+        "EU04",
+        "EU05"
+      ],
+      "locators": {
+        "EU04": "pages 42-48",
+        "EU05": "page 4"
+      }
+    },
+    {
+      "id": "C118",
+      "value": "6831.3",
+      "unit": "MW UCAP",
+      "period": "S24: Proposed procurement for the 2028/29 resource adequacy shortfall; January policy origin",
+      "qualifier": "initial target, subject to reductions",
+      "excerpt": "initial target of 6,831.3MW UCAP, subject to qualifying reductions",
+      "context": "<!-- D19 -->\nPJM's US proposals have a different status. Its January policy direction preceded the later auction shortfall. The July Reliability Backstop Procurement filing used an initial target of 6,831.3MW UCAP, subject to qualifying reductions. Its proposed USD555/MW-day UCAP limit applies to the MW-weighted average levelised procurement cost, not every offer. The separate August Interim Resource Adequacy Service proposal drew a Market Monitor protest. The inspected September backstop answer still requested acceptance; final Commission disposition is unverified. These records cannot be presented as an adopted universal connection restriction. [July filing](https://www.pjm.com/pjmfiles/directory/etariff/FercDockets/9806/20260731-er26-3380-000.pdf); [Monitor protest](https://www.monitoringanalytics.com/filings/2026/IMM_Protest_Docket_No_ER26-3515_20260903.pdf); [September answer](https://www.pjm.com/-/media/DotCom/documents/ferc/filings/2026/20260910-er26-3380-000.pdf).",
+      "source_ids": [
+        "S24"
+      ],
+      "locators": {
+        "S24": "pages 31-32"
+      }
+    },
+    {
+      "id": "C119",
+      "value": "555",
+      "unit": "USD/MW-day UCAP",
+      "period": "S24: Proposed procurement for the 2028/29 resource adequacy shortfall; January policy origin",
+      "qualifier": "proposed limit on weighted average levelised cost, not individual offers",
+      "excerpt": "proposed USD555/MW-day UCAP limit applies to the MW-weighted average levelised procurement cost, not every offer",
+      "context": "<!-- D19 -->\nPJM's US proposals have a different status. Its January policy direction preceded the later auction shortfall. The July Reliability Backstop Procurement filing used an initial target of 6,831.3MW UCAP, subject to qualifying reductions. Its proposed USD555/MW-day UCAP limit applies to the MW-weighted average levelised procurement cost, not every offer. The separate August Interim Resource Adequacy Service proposal drew a Market Monitor protest. The inspected September backstop answer still requested acceptance; final Commission disposition is unverified. These records cannot be presented as an adopted universal connection restriction. [July filing](https://www.pjm.com/pjmfiles/directory/etariff/FercDockets/9806/20260731-er26-3380-000.pdf); [Monitor protest](https://www.monitoringanalytics.com/filings/2026/IMM_Protest_Docket_No_ER26-3515_20260903.pdf); [September answer](https://www.pjm.com/-/media/DotCom/documents/ferc/filings/2026/20260910-er26-3380-000.pdf).",
+      "source_ids": [
+        "S24"
+      ],
+      "locators": {
+        "S24": "pages 61-62"
+      }
+    },
+    {
+      "id": "C140",
+      "value": "3",
+      "unit": "sites",
+      "period": "April 2026 announcement; future planned deployment",
+      "qualifier": "reported value at the stated precision; see source and context",
+      "excerpt": "deployment across three existing UK sites",
+      "context": "<!-- D24 -->\nBT and Nscale's April announcement plans deployment across three existing UK sites using NVIDIA infrastructure. The inspected record does not establish operating acceptance. In Portugal, Nscale's May Sines expansion announcement identifies EUR230M for shared infrastructure and EUR465M for a second 200MW building, linked to later deployment for Microsoft. Announced investment is not paid expenditure, and building capacity is not measured IT utilisation. Nscale's US loan facilities are not assigned to either European programme. [BT partnership](https://newsroom.bt.com/bt-to-work-with-nscale-to-accelerate-uk-sovereign-ai-capability-powered-by-nvidia/); [Sines expansion](https://www.nscale.com/press-releases/nscale-start-campus).",
+      "source_ids": [
+        "EU01"
+      ],
+      "locators": {
+        "EU01": "opening paragraphs"
+      }
+    },
+    {
+      "id": "C142",
+      "value": "230",
+      "unit": "million EUR",
+      "period": "May 2026 announcement; future investment",
+      "qualifier": "announced investment, not paid expenditure",
+      "excerpt": "EUR230M for shared infrastructure",
+      "context": "<!-- D24 -->\nBT and Nscale's April announcement plans deployment across three existing UK sites using NVIDIA infrastructure. The inspected record does not establish operating acceptance. In Portugal, Nscale's May Sines expansion announcement identifies EUR230M for shared infrastructure and EUR465M for a second 200MW building, linked to later deployment for Microsoft. Announced investment is not paid expenditure, and building capacity is not measured IT utilisation. Nscale's US loan facilities are not assigned to either European programme. [BT partnership](https://newsroom.bt.com/bt-to-work-with-nscale-to-accelerate-uk-sovereign-ai-capability-powered-by-nvidia/); [Sines expansion](https://www.nscale.com/press-releases/nscale-start-campus).",
+      "source_ids": [
+        "EU11"
+      ],
+      "locators": {
+        "EU11": "lines 81-87"
+      }
+    },
+    {
+      "id": "C143",
+      "value": "465",
+      "unit": "million EUR",
+      "period": "May 2026 announcement; future investment",
+      "qualifier": "announced investment, not paid expenditure",
+      "excerpt": "EUR465M for a second",
+      "context": "<!-- D24 -->\nBT and Nscale's April announcement plans deployment across three existing UK sites using NVIDIA infrastructure. The inspected record does not establish operating acceptance. In Portugal, Nscale's May Sines expansion announcement identifies EUR230M for shared infrastructure and EUR465M for a second 200MW building, linked to later deployment for Microsoft. Announced investment is not paid expenditure, and building capacity is not measured IT utilisation. Nscale's US loan facilities are not assigned to either European programme. [BT partnership](https://newsroom.bt.com/bt-to-work-with-nscale-to-accelerate-uk-sovereign-ai-capability-powered-by-nvidia/); [Sines expansion](https://www.nscale.com/press-releases/nscale-start-campus).",
+      "source_ids": [
+        "EU11"
+      ],
+      "locators": {
+        "EU11": "lines 81-87"
+      }
+    },
+    {
+      "id": "C144",
+      "value": "200",
+      "unit": "MW",
+      "period": "May 2026 announcement; planned building capacity",
+      "qualifier": "building capacity, not IT utilisation",
+      "excerpt": "second 200MW building",
+      "context": "<!-- D24 -->\nBT and Nscale's April announcement plans deployment across three existing UK sites using NVIDIA infrastructure. The inspected record does not establish operating acceptance. In Portugal, Nscale's May Sines expansion announcement identifies EUR230M for shared infrastructure and EUR465M for a second 200MW building, linked to later deployment for Microsoft. Announced investment is not paid expenditure, and building capacity is not measured IT utilisation. Nscale's US loan facilities are not assigned to either European programme. [BT partnership](https://newsroom.bt.com/bt-to-work-with-nscale-to-accelerate-uk-sovereign-ai-capability-powered-by-nvidia/); [Sines expansion](https://www.nscale.com/press-releases/nscale-start-campus).",
+      "source_ids": [
+        "EU11"
+      ],
+      "locators": {
+        "EU11": "lines 81-87"
+      }
+    },
+    {
+      "id": "C148",
+      "value": "3",
+      "unit": "billion EUR",
+      "period": "September 2026 financing announcement",
+      "qualifier": "company-reported equity financing, not all assigned to infrastructure",
+      "excerpt": "EUR3B Series D",
+      "context": "<!-- D25 -->\nMistral reports a EUR3B Series D led by Samsung in September. It separately describes European Compute Units that exchange multi-year customer commitments for infrastructure access. The inspected material does not assign all equity proceeds to infrastructure or disclose the complete customer contract. Mistral reports regional inference endpoints available, while retaining specified exceptions for safeguarded subprocessor transfers outside the region. The operating endpoint and the proposed capacity expansion are different claims. [Financing statement](https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/); [regional services and compute commitments](https://mistral.ai/news/regional-inference-open-models-new-compute/).",
+      "source_ids": [
+        "EU09"
+      ],
+      "locators": {
+        "EU09": "lines 78-90"
+      }
+    }
+  ]
+}

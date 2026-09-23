@@ -1,0 +1,143 @@
+{
+  "purpose": "Machine-readable reproduction entrypoints and public file identity. This manifest does not hash itself.",
+  "schema_version": "ai-infrastructure-package/1",
+  "version": "v7.1",
+  "status": "release_bundle",
+  "main_document": "PAPER_v7_1.pdf",
+  "runtime": {
+    "tested_python": "3.14.7",
+    "dependencies": [],
+    "network_required": false,
+    "gpu_required": false
+  },
+  "commands": {
+    "check": [
+      "python3",
+      "-B",
+      "reproduce.py",
+      "--check"
+    ],
+    "generate": [
+      "python3",
+      "-B",
+      "reproduce.py",
+      "--output-dir",
+      "../ai-infrastructure-reproduced"
+    ],
+    "tests": [
+      "python3",
+      "-B",
+      "test_reproduce.py",
+      "-v"
+    ],
+    "explain": [
+      "python3",
+      "-B",
+      "reproduce.py",
+      "--explain",
+      "C021"
+    ],
+    "example": [
+      "python3",
+      "-B",
+      "reuse_example.py"
+    ]
+  },
+  "inputs": [
+    "QUANTITATIVE_INPUTS.json",
+    "FOLLOWUPS.json",
+    "PAPER.template.md",
+    "SOURCE_CATALOGUE.json"
+  ],
+  "generated_outputs": [
+    "PAPER_v7_1.md",
+    "QUANTITIES.csv",
+    "FOLLOWUPS.md",
+    "RESULTS.json"
+  ],
+  "separately_rendered": [
+    "PAPER_v7_1.pdf"
+  ],
+  "files": [
+    {
+      "path": "PAPER_v7_1.pdf",
+      "bytes": 135567,
+      "sha256": "9f89a8f4354eddacf196bd261c3f40942388421e65aa4cf65d1a5c67899dcef0"
+    },
+    {
+      "path": "PAPER_v7_1.md",
+      "bytes": 27056,
+      "sha256": "d5722944f9c1176035a8bdb42e6499677097943e61a042ba32c23aec9fe012b9"
+    },
+    {
+      "path": "PAPER.template.md",
+      "bytes": 26423,
+      "sha256": "34a59f6fa35365e00921e922f6d781b5b0da1309eda3749f52726d0138be6c86"
+    },
+    {
+      "path": "SOURCE_CATALOGUE.json",
+      "bytes": 32501,
+      "sha256": "1a6fe0b8d244b8b41caf5f4af7a1bb188dce897cf9aeb7e0f3c01adcdc917f58"
+    },
+    {
+      "path": "QUANTITATIVE_INPUTS.json",
+      "bytes": 39850,
+      "sha256": "c3547cb7f595c560c3105006b2273a277672c4bcde76e60248961679b00ccb2b"
+    },
+    {
+      "path": "FOLLOWUPS.json",
+      "bytes": 3042,
+      "sha256": "1fa78fdae32b64c095ec186617fb846df1b4104af4c950673719798f1f97f55a"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 19029,
+      "sha256": "08bf9a26888192859125ba18700de0ee1833bf59d270515199a84278a83a1eda"
+    },
+    {
+      "path": "test_reproduce.py",
+      "bytes": 13889,
+      "sha256": "af18800133b67411ef528ccdd84ca0d71c9b47dc2b8e64a2ea9c305a80a2cff8"
+    },
+    {
+      "path": "QUANTITIES.csv",
+      "bytes": 31551,
+      "sha256": "391e3e81134021cf66194a9c1ceb404cbb9dd8f500d2db15e7f9b0abd496d63f"
+    },
+    {
+      "path": "FOLLOWUPS.md",
+      "bytes": 3565,
+      "sha256": "c34cd502952a45a32e3044eb11f47d260fd6ad4c910ca467b75a7d3aa976e73a"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 3303,
+      "sha256": "7fd87c1c6037430453d2e6e722036f5eb54f06d32c23f4d8afa93757056eb9c0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9034,
+      "sha256": "f904a40e6b7e8f57d58b47e3fc92d4e1328b22ec96545ddbaf86beaed929cac4"
+    },
+    {
+      "path": "reuse_example.py",
+      "bytes": 3516,
+      "sha256": "18d47041369ec8e382ae3fe0a8b3ea08fe6bf905ef6e92464ccc2a9cb711f305"
+    }
+  ],
+  "check_contract": {
+    "stdout": "JSON success",
+    "stderr": "JSON operation failure; argparse usage for invalid arguments",
+    "exit_codes": {
+      "0": "selected operation passed",
+      "1": "operation or required check failed",
+      "2": "invalid command-line arguments"
+    },
+    "not_assessed": [
+      "source_truth",
+      "interpretation",
+      "pdf_layout"
+    ],
+    "integrity_scope": "Files compared with local manifest, not independent authenticity; manifest does not hash itself."
+  }
+}
