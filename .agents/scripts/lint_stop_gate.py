@@ -6,11 +6,13 @@ import sys
 from pathlib import Path
 
 def locate_tellscrub() -> str:
-    candidates = [
-        Path(__file__).resolve().parents[2] / "House style" / "tellscrub.py",
-        Path.cwd() / "House style" / "tellscrub.py",
-        Path("/var/home/Noel/Desktop/House style/tellscrub.py"),
-    ]
+    """Find tellscrub.py in TELLSCRUB_PATH or the workspace that holds this repository."""
+    workspace = Path(__file__).resolve().parents[3]
+    candidates = []
+    if os.environ.get("TELLSCRUB_PATH"):
+        candidates.append(Path(os.environ["TELLSCRUB_PATH"]))
+    candidates += sorted((workspace / "Workflow").glob("*/tellscrub.py"))
+    candidates += [workspace / "House style" / "tellscrub.py", Path.cwd() / "House style" / "tellscrub.py"]
     for c in candidates:
         if c.is_file():
             return str(c)
@@ -24,6 +26,7 @@ def main():
 
     tellscrub_path = locate_tellscrub()
     if not tellscrub_path:
+        print("lint_stop_gate: tellscrub.py not found; style lint was not run.", file=sys.stderr)
         print(json.dumps({"decision": "allow"}))
         return
 
